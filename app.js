@@ -16,7 +16,7 @@ function buttonClickHandler(event) {
         .then(json => {
             translateOutput.innerText = json.contents.translated;
         })
-        .catch(() => alert("some error occured"))
+        .catch(() => alert("Limited To No Of Request! , Try Again After Sometime "))
     
 }
 
